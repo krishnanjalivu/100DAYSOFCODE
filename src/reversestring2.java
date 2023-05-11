@@ -1,5 +1,5 @@
 public class reversestring2 {
-    public void reverse(char ch[],int start,int end)
+    public static void reverse(char ch[],int start,int end)
     {
         while(start<end)
         {
@@ -10,7 +10,7 @@ public class reversestring2 {
             end--;
         }
     }
-    public String reverseStr(String s, int k) {
+    public static String reverseStr(String s, int k) {
         char ch[]=s.toCharArray();
 
         for(int i=0;i<ch.length;i=i+2*k)
@@ -21,6 +21,13 @@ public class reversestring2 {
         }
         return String.valueOf(ch);
 
+
+    }
+
+    public static void main(String[] args) {
+        String a="abcdefgh";
+        String s=reverseStr(a,2);
+        System.out.println(s);
 
     }
 }
