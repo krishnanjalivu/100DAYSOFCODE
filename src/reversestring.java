@@ -16,9 +16,9 @@ public class reversestring {
     }
 
     public static void main(String[] args) {
-        char a[]={'a','b','c','d'};
-        reverseString(a);
-        System.out.println(a);
+        char ab[]={'a','b','c','d'};
+        reverseString(ab);
+        System.out.println(ab);
 
     }
 }
