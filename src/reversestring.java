@@ -1,3 +1,5 @@
+
+
 public class reversestring {
     public static void reverseString(char[] s) {
         int start=0;
@@ -14,8 +16,9 @@ public class reversestring {
     }
 
     public static void main(String[] args) {
-        char a[]={"a","b","c","d"};
+        char a[]={'a','b','c','d'};
         reverseString(a);
+        System.out.println(a);
 
     }
 }
