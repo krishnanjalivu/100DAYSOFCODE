@@ -1,5 +1,5 @@
 public class reversestrings3 {
-    public void reverse(char ch[],int start,int end)
+    public static void reverse(char ch[],int start,int end)
     {
         while(start<end)
         {
@@ -10,7 +10,7 @@ public class reversestrings3 {
             end--;
         }
     }
-    public String reverseWords(String s) {
+    public static String reverseWords(String s) {
         char ch[]=s.toCharArray();
         int start=0;
         for(int i=0;i<ch.length;i++)
@@ -27,5 +27,11 @@ public class reversestrings3 {
 
         }
         return String.valueOf(ch);
+    }
+
+    public static void main(String[] args) {
+        String s="let's have a great day";
+        String c=reverseWords(s);
+        System.out.println(c);
     }
 }
