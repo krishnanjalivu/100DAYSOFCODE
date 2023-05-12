@@ -1,5 +1,5 @@
 public class Solution {
-    public long mostPoints(int[][] questions) {
+    public static long mostPoints(int[][] questions) {
         long[] dp=new long[questions.length];
         for(int i=questions.length-1;i>=0;i--)
         {
