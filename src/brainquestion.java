@@ -19,4 +19,8 @@ public class Solution {
         }
         return dp[0];
     }
+
+    public static void main(String[] args) {
+
+    }
 }
